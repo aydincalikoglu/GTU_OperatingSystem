@@ -1,3 +1,0 @@
-C:/Users/AyKo/Desktop/Operating_System_hw1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/AyKo/Desktop/Operating_System_hw1/cmake-build-debug/CMakeFiles/Op_hw1.dir
-C:/Users/AyKo/Desktop/Operating_System_hw1/cmake-build-debug/CMakeFiles/edit_cache.dir

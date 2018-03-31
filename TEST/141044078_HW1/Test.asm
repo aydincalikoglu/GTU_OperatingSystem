@@ -48,7 +48,7 @@ READ_MEM_PRINT_MEM_TEST:	dw '  READ_MEM_TEST and PRINT_MEM_TEST',00AH,00AH,00H ;
 READ__PRINT_STR:	dw '  READ_STR_TEST and PRINT_STR_TEST',00AH,00AH,00H ; null terminated string
 
 
-getRND_TEST:	dw 'getRND_TEST',00AH,00H ; null terminated string
+getRND_TEST:	dw '  getRND_TEST',00AH,00H ; null terminated string
 
 
 

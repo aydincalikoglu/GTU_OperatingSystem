@@ -83,17 +83,12 @@ uint64_t GTUOS::readStr(const CPU8080 & cpu){
     uint8_t c = (cpu.state->c);
     uint32_t memStartAddr=b*256+c;
 
-    //cout<<("Read String :");
     string readStr="";
-
-    getline(cin, readStr);
+    //getline(cin, readStr);
     cin>>readStr;
-    cout<<readStr<<endl;
-    for (uint32_t i = memStartAddr,j = 0; j <= readStr.length(); ++memStartAddr,++j) {
-        if (j!=readStr.length())
-            cpu.memory->physicalAt(i)=readStr[j];
-        else
-            cpu.memory->physicalAt(i)=(unsigned)0;
+    int i = memStartAddr;
+    for (uint32_t j = 0; j < readStr.length(); ++j) {
+        cpu.memory->physicalAt(i++)=readStr[j];
     }
     return 100;
 }
